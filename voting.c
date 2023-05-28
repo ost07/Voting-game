@@ -7,7 +7,7 @@ int main()
 {
     int i;
     voting();
-    printf("\nPress:\n0 to Play Game\nAnywhere to Exit\nResponse: ");
+    printf("\nPress:\n0 to Play Game\nAnywhere to Exit\nWrite your Response here: ");
     scanf("%d", &i);
     if(i==0) game();
     return 0;
